@@ -1,46 +1,42 @@
 # DiscountBot
 
-**DiscountBot** — это бот на Python для автоматической генерации и выдачи скидок клиентам.  
-Он умеет работать с промо-кодами и может быть интегрирован в систему лояльности или онлайн-магазин.  
+**DiscountBot** — this is a Python bot for automatically generating and issuing discounts to customers.
+It can handle promo codes and can be integrated into a loyalty system or online store.
 
 ---
 
-## 📖 Описание
+## 📖 Description
 
-DiscountBot — простой инструмент для работы с системой скидок:  
+DiscountBot — easy instrument for working with loyalty system:  
 
-- Генерация уникальных промо-кодов
-- Управление клиентами (например, выдача кода при первом заходе в бота) 
-
+- Generation promo-codes
+- Client management (for example, issuing a code upon first login to the bot)
 ---
 
-## ⚙️ Установка
+## ⚙️ Install
 
-1. Клонируй репозиторий:
+1. Clone repo:
 
    ```bash
    git clone https://github.com/ManifoldCode/DiscountBot.git
    cd DiscountBot
    ```
 
-2. Создай виртуальное окружение:
+2. Create virtual enviroment:
 
    ```bash
    python3 -m venv venv
    source venv/bin/activate 
    ```
 
-3. Установи зависимости:
+3. Install requirements:
 
    ```bash
    pip install -r requirements.txt
    ```
-
 ---
 
-## 🚀 Запуск
-
-Запусти приложение командой:
+## 🚀 Lounch
 
 ```bash
 python app.py
@@ -48,27 +44,27 @@ python app.py
 
 ---
 
-## 💡 Использование
+## 💡 Using
 
-- Запроси у бота промо-код — он сгенерирует уникальное значение.  
-- Клиент может применить его в магазине или сервисе.  
-- Код можно проверить на срок действия 
-
----
-
-## 📦 Модули и компоненты
-
-- **`app.py`** — точка входа в приложение  
-- **`config.py`** — все настройки проекта  
-- **`customer.py`** — работа с клиентами и их данными  
-- **`promo_code_generator.py`** — генерация уникальных промо-кодов   
+- Ask the bot for a promo code – it will generate a unique value.
+- The client can use it in a store or service. 
+- The code can be checked for expiration date
 
 ---
 
-## 🖥 Требования
+## 📦 Modules
 
-- Python 3.8+  
-- Зависимости из `requirements.txt`  
+- **`app.py`** — the entry point to the application
+- **`config.py`** — all project settings
+- **`customer.py`** — working with clients and their data
+- **`promo_code_generator.py`** — generating unique promo codes
+
+---
+
+## 🖥 Requirements
+
+- Python 3.8+
+- Dependencies from `requirements.txt`
 
 ---
 
